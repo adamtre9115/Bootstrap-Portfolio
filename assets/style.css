@@ -16,3 +16,8 @@ body {
 .navbar-brand {
     color: #fff;
 }
+
+.main-body {
+    background-color: #fff;
+    border: solid 1px grey;
+}
