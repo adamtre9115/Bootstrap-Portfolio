@@ -5,6 +5,7 @@ body {
 }
 .navbar {
     padding: 0;
+    border-bottom: solid 2px silver;
 }
 
 #name {
@@ -17,7 +18,59 @@ body {
     color: #fff;
 }
 
-.main-body {
+/* main content */
+
+#main-content {
+    margin-top: 20px;
+}
+
+.main-body,
+.contact {
     background-color: #fff;
-    border: solid 1px grey;
+    border: solid 1px silver;
+}
+
+.mainImg {
+    float: left;
+}
+
+.main-body {
+    margin-bottom: 10px;
+}
+
+.contact {
+    height: 130px;
+}
+
+.conImg {
+    padding: 0;
+    text-align: center;
+}
+
+/* media queries */
+
+@media (max-width: 500px) {
+    #main-content {
+        width: 95%;
+    }
+
+    .mainImg {
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 960px) {
+    .contact {
+        height: 200px;
+    }
+}
+
+@media (min-width: 960px) {
+
+    .main-body {
+        margin-left: 1rem;
+    }
+
+    .mainImg {
+        padding-right: 10px;
+    }
 }
