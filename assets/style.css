@@ -3,6 +3,7 @@
 body {
     background-image: url("images/cork-wallet.png")
 }
+
 .navbar {
     padding: 0;
     border-bottom: solid 2px silver;
@@ -45,6 +46,18 @@ body {
 .conImg {
     padding: 0;
     text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    border-top: 3px solid #49AAA4;
+    background-color: #666666;
 }
 
 /* media queries */
