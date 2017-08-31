@@ -1,7 +1,7 @@
 /* base style */
 
 body {
-    background-image: url("images/cork-wallet.png")
+    background-image: url("images/cork-wallet.png");
 }
 
 .navbar {
@@ -48,13 +48,26 @@ body {
     text-align: center;
 }
 
+/* contact */
 
+button {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #49AAA4;
+    border: none;
+}
+
+.btn:hover {
+    background-color: silver;
+}
 /* footer */
 
 footer {
     text-align: center;
     color: #fff;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 0;
     margin-top: 20px;
     border-top: 3px solid #49AAA4;
     background-color: #666666;
