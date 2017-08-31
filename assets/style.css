@@ -62,6 +62,22 @@ button {
 .btn:hover {
     background-color: silver;
 }
+
+/* Portfolio */
+
+.portGallery {
+    text-align: center;
+}
+
+figcaption{
+    position: relative;
+    color: #fff;
+    background-color: #4aaaa5;
+    height: 50px;
+    width: 250px;
+    margin: auto;
+    opacity: .8;
+}
 /* footer */
 
 footer {
